@@ -1,5 +1,6 @@
 let connection;
 
+//w to move up, q to move left, s to move down, d to move right, and y to say hi
 const handleUserInput = (stdin, connection) => {
   stdin.on('data', key => {
     if (key === '\u0003') {
