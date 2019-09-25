@@ -17,6 +17,9 @@ const handleUserInput = (stdin, connection) => {
     if (key === '\u0064') {
       connection.write('Move: right');
     }
+    if (key === 'y') {
+      connection.write('Say: hi');
+    }
   });
 }
 
